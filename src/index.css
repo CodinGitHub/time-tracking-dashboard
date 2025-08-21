@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300 400 500;
+  font-display: swap;
+  src: url("./assets/fonts/Rubik/Rubik-VariableFont_wght.ttf") format("woff2");
+}
+
+@theme {
+  --color-Purple-600: hsl(246, 80%, 60%);
+  --color-Orange-300-work: hsl(15, 100%, 70%);
+  --color-Blue-300-play: hsl(195, 74%, 62%);
+  --color-Pink-400-study: hsl(348, 100%, 68%);
+  --color-Green-400-exercise: hsl(145, 58%, 55%);
+  --color-Purple-700-social: hsl(264, 64%, 52%);
+  --color-Yellow-300-self-care: hsl(43, 84%, 65%);
+  --color-Navy-950: hsl(226, 43%, 10%);
+  --color-Navy-900: hsl(235, 46%, 20%);
+  --color-Purple-500: hsl(235, 45%, 61%);
+  --color-Navy-200: hsl(236, 100%, 87%);
+
+  --font-Rubik: Rubik;
+}
+
+body{
+  @apply text-white flex justify-center font-Rubik bg-Navy-950;
+}
