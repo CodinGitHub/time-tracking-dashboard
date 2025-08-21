@@ -31,7 +31,7 @@ export const StatsCard = ({title, timeframes}: Data) => {
       <div className='bg-Navy-900 rounded-[15px] p-6 absolute bottom-0 w-full'>
         <div className='flex items-center justify-between'>
           <p className='text-lg font-medium'>{title}</p>
-          <img className='cursor-pointer' src="/public/images/icon-ellipsis.svg" alt="icon ellipsis" />
+          <img className='cursor-pointer' src="/images/icon-ellipsis.svg" alt="icon ellipsis" />
         </div>
         <div className='flex justify-between items-center md:flex-col md:items-start'>
           <p className='text-[2rem] font-extralight md:text-[3.5rem]'>{timeframes[periodStore.period].current}hrs</p>
