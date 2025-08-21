@@ -1,41 +1,41 @@
 # Time tracking dashboard
 
-![Design preview for the Time tracking dashboard](./preview.jpg)
+![preview](./preview.jpg)
 
-## Features
+## Características
 
-Users are able to:
+Los usuarios pueden:
 
-- Switch between viewing Daily, Weekly, and Monthly stats
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- Cambiar entre ver estadísticas Diarias, Semanales y Mensuales
+- Ver el diseño óptimo del sitio según el tamaño de pantalla de su dispositivo
+- Ver los estados hover para todos los elementos interactivos en la página
 
-## Technologies used
+## Tecnologías utilizadas
 - REACT
 - ZUSTAND
 - TAILWIND
 - TYPESCRIPT
 
-## Video explanation
-[![Watch the video](https://img.youtube.com/vi/rePxcRZmuJk/0.jpg)](https://www.youtube.com/watch?v=rePxcRZmuJk)
+## Explicación en video
+[![Ver el video](https://img.youtube.com/vi/rePxcRZmuJk/0.jpg)](https://www.youtube.com/watch?v=rePxcRZmuJk)
 
-## Getting Started
+## Comenzando
 
-To run this project locally, follow these steps:
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-1. Clone the repository:
+1. Clona el repositorio:
    ```bash
    git clone https://github.com/CodinGitHub/time-tracking-dashboard
    ```  
-2. Navigate to the project directory:
+2. Navega al directorio del proyecto:
    ```bash
    cd time-tracking-dashboard
    ```
-3. Install dependencies:
+3. Instala las dependencias:
    ```bash
    npm install
    ```
-4. Start the development server:
+4. Inicia el servidor de desarrollo:
    ```bash
    npm run dev
    ```
